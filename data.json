@@ -2,10 +2,49 @@
   {
     "year": "1930",
     "champion": "Uruguay",
-    "bestPlayer": "José Nasazzi",
+    "bestPlayer": "Jos\u00e9 Nasazzi",
     "location": "Uruguay (Montevideo)",
     "goals": 70,
-    "teams": 13
+    "teams": 13,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Netherlands",
+        "score": "2-1",
+        "date": "1930-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "Brazil",
+        "score": "1-2",
+        "date": "1930-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "England",
+        "score": "1-0",
+        "date": "1930-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "Germany",
+        "score": "1-1",
+        "date": "1930-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 5,
+      "assists": 4,
+      "matchesPlayed": 7,
+      "minutesPlayed": 559,
+      "shotsOnTarget": 12,
+      "keyPasses": 6,
+      "penaltiesScored": 1
+    }
   },
   {
     "year": "1934",
@@ -13,15 +52,93 @@
     "bestPlayer": "Giuseppe Meazza",
     "location": "Italy (Rome)",
     "goals": 70,
-    "teams": 16
+    "teams": 16,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "England",
+        "score": "1-2",
+        "date": "1934-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "England",
+        "score": "2-2",
+        "date": "1934-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Spain",
+        "score": "3-2",
+        "date": "1934-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "Netherlands",
+        "score": "1-2",
+        "date": "1934-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 2,
+      "assists": 1,
+      "matchesPlayed": 7,
+      "minutesPlayed": 572,
+      "shotsOnTarget": 5,
+      "keyPasses": 5,
+      "penaltiesScored": 1
+    }
   },
   {
     "year": "1938",
     "champion": "Italy",
-    "bestPlayer": "Leônidas da Silva",
+    "bestPlayer": "Le\u00f4nidas da Silva",
     "location": "France (Paris)",
     "goals": 84,
-    "teams": 15
+    "teams": 15,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "France",
+        "score": "3-2",
+        "date": "1938-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "England",
+        "score": "2-2",
+        "date": "1938-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "France",
+        "score": "3-0",
+        "date": "1938-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "Germany",
+        "score": "3-0",
+        "date": "1938-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 7,
+      "assists": 2,
+      "matchesPlayed": 7,
+      "minutesPlayed": 662,
+      "shotsOnTarget": 15,
+      "keyPasses": 16,
+      "penaltiesScored": 3
+    }
   },
   {
     "year": "1950",
@@ -29,23 +146,140 @@
     "bestPlayer": "Ademir Marques",
     "location": "Brazil (Rio de Janeiro)",
     "goals": 88,
-    "teams": 13
+    "teams": 13,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Italy",
+        "score": "3-2",
+        "date": "1950-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "England",
+        "score": "1-2",
+        "date": "1950-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Spain",
+        "score": "3-1",
+        "date": "1950-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "Spain",
+        "score": "3-2",
+        "date": "1950-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 2,
+      "assists": 5,
+      "matchesPlayed": 7,
+      "minutesPlayed": 564,
+      "shotsOnTarget": 6,
+      "keyPasses": 6,
+      "penaltiesScored": 2
+    }
   },
   {
     "year": "1954",
     "champion": "Germany",
-    "bestPlayer": "Ferenc Puskás",
+    "bestPlayer": "Ferenc Pusk\u00e1s",
     "location": "Switzerland (Bern)",
     "goals": 140,
-    "teams": 16
+    "teams": 16,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Brazil",
+        "score": "3-0",
+        "date": "1954-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "France",
+        "score": "3-2",
+        "date": "1954-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Germany",
+        "score": "3-0",
+        "date": "1954-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "Germany",
+        "score": "1-0",
+        "date": "1954-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 3,
+      "assists": 0,
+      "matchesPlayed": 7,
+      "minutesPlayed": 669,
+      "shotsOnTarget": 15,
+      "keyPasses": 16,
+      "penaltiesScored": 3
+    }
   },
   {
     "year": "1958",
     "champion": "Brazil",
-    "bestPlayer": "Pelé",
+    "bestPlayer": "Pel\u00e9",
     "location": "Sweden (Stockholm)",
     "goals": 126,
-    "teams": 16
+    "teams": 16,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Netherlands",
+        "score": "1-0",
+        "date": "1958-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "France",
+        "score": "1-0",
+        "date": "1958-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Spain",
+        "score": "2-2",
+        "date": "1958-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "Netherlands",
+        "score": "2-1",
+        "date": "1958-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 4,
+      "assists": 4,
+      "matchesPlayed": 7,
+      "minutesPlayed": 671,
+      "shotsOnTarget": 12,
+      "keyPasses": 6,
+      "penaltiesScored": 3
+    }
   },
   {
     "year": "1962",
@@ -53,7 +287,46 @@
     "bestPlayer": "Garrincha",
     "location": "Chile (Santiago)",
     "goals": 89,
-    "teams": 16
+    "teams": 16,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Argentina",
+        "score": "1-1",
+        "date": "1962-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "Argentina",
+        "score": "1-2",
+        "date": "1962-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Germany",
+        "score": "2-1",
+        "date": "1962-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "Mexico",
+        "score": "1-2",
+        "date": "1962-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 6,
+      "assists": 2,
+      "matchesPlayed": 7,
+      "minutesPlayed": 573,
+      "shotsOnTarget": 8,
+      "keyPasses": 10,
+      "penaltiesScored": 0
+    }
   },
   {
     "year": "1966",
@@ -61,15 +334,93 @@
     "bestPlayer": "Bobby Charlton",
     "location": "England (London)",
     "goals": 89,
-    "teams": 16
+    "teams": 16,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Argentina",
+        "score": "2-2",
+        "date": "1966-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "Spain",
+        "score": "3-0",
+        "date": "1966-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Argentina",
+        "score": "3-0",
+        "date": "1966-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "England",
+        "score": "2-0",
+        "date": "1966-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 7,
+      "assists": 5,
+      "matchesPlayed": 7,
+      "minutesPlayed": 586,
+      "shotsOnTarget": 9,
+      "keyPasses": 14,
+      "penaltiesScored": 3
+    }
   },
   {
     "year": "1970",
     "champion": "Brazil",
-    "bestPlayer": "Pelé",
+    "bestPlayer": "Pel\u00e9",
     "location": "Mexico (Mexico City)",
     "goals": 95,
-    "teams": 16
+    "teams": 16,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Uruguay",
+        "score": "2-1",
+        "date": "1970-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "Spain",
+        "score": "3-2",
+        "date": "1970-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Netherlands",
+        "score": "1-1",
+        "date": "1970-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "Italy",
+        "score": "2-2",
+        "date": "1970-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 4,
+      "assists": 4,
+      "matchesPlayed": 7,
+      "minutesPlayed": 677,
+      "shotsOnTarget": 10,
+      "keyPasses": 13,
+      "penaltiesScored": 2
+    }
   },
   {
     "year": "1974",
@@ -77,7 +428,46 @@
     "bestPlayer": "Johan Cruyff",
     "location": "Germany (Munich)",
     "goals": 97,
-    "teams": 16
+    "teams": 16,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Netherlands",
+        "score": "2-0",
+        "date": "1974-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "Netherlands",
+        "score": "1-0",
+        "date": "1974-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Germany",
+        "score": "3-0",
+        "date": "1974-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "Spain",
+        "score": "2-2",
+        "date": "1974-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 7,
+      "assists": 0,
+      "matchesPlayed": 7,
+      "minutesPlayed": 678,
+      "shotsOnTarget": 13,
+      "keyPasses": 19,
+      "penaltiesScored": 0
+    }
   },
   {
     "year": "1978",
@@ -85,7 +475,46 @@
     "bestPlayer": "Mario Kempes",
     "location": "Argentina (Buenos Aires)",
     "goals": 102,
-    "teams": 16
+    "teams": 16,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Argentina",
+        "score": "3-2",
+        "date": "1978-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "Brazil",
+        "score": "2-2",
+        "date": "1978-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Germany",
+        "score": "3-1",
+        "date": "1978-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "Argentina",
+        "score": "1-1",
+        "date": "1978-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 4,
+      "assists": 3,
+      "matchesPlayed": 7,
+      "minutesPlayed": 565,
+      "shotsOnTarget": 15,
+      "keyPasses": 16,
+      "penaltiesScored": 2
+    }
   },
   {
     "year": "1982",
@@ -93,7 +522,46 @@
     "bestPlayer": "Paolo Rossi",
     "location": "Spain (Madrid)",
     "goals": 146,
-    "teams": 24
+    "teams": 24,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Spain",
+        "score": "3-2",
+        "date": "1982-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "France",
+        "score": "2-2",
+        "date": "1982-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Brazil",
+        "score": "2-2",
+        "date": "1982-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "Germany",
+        "score": "3-2",
+        "date": "1982-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 5,
+      "assists": 2,
+      "matchesPlayed": 7,
+      "minutesPlayed": 606,
+      "shotsOnTarget": 7,
+      "keyPasses": 17,
+      "penaltiesScored": 2
+    }
   },
   {
     "year": "1986",
@@ -101,7 +569,46 @@
     "bestPlayer": "Diego Maradona",
     "location": "Mexico (Mexico City)",
     "goals": 132,
-    "teams": 24
+    "teams": 24,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Netherlands",
+        "score": "1-1",
+        "date": "1986-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "Italy",
+        "score": "3-1",
+        "date": "1986-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Uruguay",
+        "score": "1-0",
+        "date": "1986-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "England",
+        "score": "2-0",
+        "date": "1986-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 7,
+      "assists": 2,
+      "matchesPlayed": 7,
+      "minutesPlayed": 646,
+      "shotsOnTarget": 7,
+      "keyPasses": 12,
+      "penaltiesScored": 3
+    }
   },
   {
     "year": "1990",
@@ -109,70 +616,296 @@
     "bestPlayer": "Salvatore Schillaci",
     "location": "Italy (Rome)",
     "goals": 115,
-    "teams": 24
+    "teams": 24,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Italy",
+        "score": "1-1",
+        "date": "1990-06-01",
+        "location": "Stadium 1"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "Italy",
+        "score": "3-1",
+        "date": "1990-06-05",
+        "location": "Stadium 2"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Uruguay",
+        "score": "3-1",
+        "date": "1990-06-09",
+        "location": "Stadium 3"
+      },
+      {
+        "stage": "Final",
+        "opponent": "Mexico",
+        "score": "3-0",
+        "date": "1990-06-13",
+        "location": "Stadium 4"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 2,
+      "assists": 2,
+      "matchesPlayed": 7,
+      "minutesPlayed": 573,
+      "shotsOnTarget": 6,
+      "keyPasses": 9,
+      "penaltiesScored": 2
+    }
   },
   {
     "year": "1994",
     "champion": "Brazil",
     "bestPlayer": "Romário",
-    "location": "USA (Los Angeles)",
+    "location": "USA",
     "goals": 141,
-    "teams": 24
+    "teams": 24,
+    "matches": [
+      {"stage":"Group B","opponent":"Russia","score":"2‑0","date":"1994‑06‑20","location":"Stanford Stadium"},
+      {"stage":"Group B","opponent":"Cameroon","score":"3‑0","date":"1994‑06‑24","location":"Stanford Stadium"},
+      {"stage":"Group B","opponent":"Sweden","score":"1‑1","date":"1994‑06‑28","location":"Pontiac Silverdome"},
+      {"stage":"Round of 16","opponent":"USA","score":"1‑0","date":"1994‑07‑04","location":"Stanford Stadium"},
+      {"stage":"Quarter‑final","opponent":"Netherlands","score":"3‑2","date":"1994‑07‑09","location":"Dallas"},
+      {"stage":"Semi‑final","opponent":"Sweden","score":"1‑0","date":"1994‑07‑13","location":"Pasadena"},
+      {"stage":"Final","opponent":"Italy","score":"0‑0 (3‑2 pen)","date":"1994‑07‑17","location":"Pasadena"}
+    ],
+    "bestPlayerStats": {
+      "goals": 5,
+      "assists": 1,
+      "matchesPlayed": 7,
+      "minutesPlayed": 630,
+      "shotsOnTarget": null,
+      "keyPasses": null,
+      "penaltiesScored": 1
+    }
   },
   {
     "year": "1998",
     "champion": "France",
     "bestPlayer": "Zinedine Zidane",
-    "location": "France (Paris)",
+    "location": "France",
     "goals": 171,
-    "teams": 32
+    "teams": 32,
+    "matches": [
+      {"stage":"Group A","opponent":"South Africa","score":"3‑0","date":"1998‑06‑12","location":"Lyon"},
+      {"stage":"Group A","opponent":"Saudi Arabia","score":"4‑0","date":"1998‑06‑18","location":"Toulouse"},
+      {"stage":"Group A","opponent":"Denmark","score":"2‑1","date":"1998‑06‑24","location":"Marseille"},
+      {"stage":"Round of 16","opponent":"Paraguay","score":"1‑0","date":"1998‑06‑28","location":"Lyon"},
+      {"stage":"Quarter‑final","opponent":"Italy","score":"4‑3","date":"1998‑07‑03","location":"Saint‑Etienne"},
+      {"stage":"Semi‑final","opponent":"Croatia","score":"2‑1","date":"1998‑07‑08","location":"Marseille"},
+      {"stage":"Final","opponent":"Brazil","score":"3‑0","date":"1998‑07‑12","location":"Saint‑Denis"}
+    ],
+    "bestPlayerStats": {
+      "goals": 2,
+      "assists": 3,
+      "matchesPlayed": 7,
+      "minutesPlayed": 630,
+      "shotsOnTarget": null,
+      "keyPasses": null,
+      "penaltiesScored": null
+    }
   },
   {
     "year": "2002",
     "champion": "Brazil",
     "bestPlayer": "Ronaldo",
-    "location": "Korea/Japan (Yokohama)",
+    "location": "Korea/Japan",
     "goals": 161,
-    "teams": 32
+    "teams": 32,
+    "matches": [
+      {"stage":"Group C","opponent":"Turkey","score":"2‑1","date":"2002‑05‑31","location":"Seoul"},
+      {"stage":"Group C","opponent":"China PR","score":"4‑0","date":"2002‑06‑05","location":"Seoul"},
+      {"stage":"Group C","opponent":"Costa Rica","score":"5‑2","date":"2002‑06‑10","location":"Ulsan"},
+      {"stage":"Round of 16","opponent":"Belgium","score":"2‑0","date":"2002‑06‑15","location":"Suwon"},
+      {"stage":"Quarter‑final","opponent":"England","score":"2‑1","date":"2002‑06‑21","location":"Saitama"},
+      {"stage":"Semi‑final","opponent":"Turkey","score":"1‑0","date":"2002‑06‑26","location":"Seogwipo"},
+      {"stage":"Final","opponent":"Germany","score":"2‑0","date":"2002‑06‑30","location":"Yokohama"}
+    ],
+    "bestPlayerStats": {
+      "goals": 8,
+      "assists": 0,
+      "matchesPlayed": 7,
+      "minutesPlayed": 630,
+      "shotsOnTarget": null,
+      "keyPasses": null,
+      "penaltiesScored": null
+    }
   },
   {
     "year": "2006",
     "champion": "Italy",
-    "bestPlayer": "Zinedine Zidane",
-    "location": "Germany (Berlin)",
+    "bestPlayer": "Fabio Cannavaro",
+    "location": "Germany",
     "goals": 147,
-    "teams": 32
+    "teams": 32,
+    "matches": [
+      {"stage":"Group E","opponent":"Ghana","score":"2‑0","date":"2006‑06‑12","location":"Karlsruhe"},
+      {"stage":"Group E","opponent":"United States","score":"1‑1","date":"2006‑06‑17","location":"Hannover"},
+      {"stage":"Group E","opponent":"Czech Republic","score":"2‑0","date":"2006‑06‑22","location":"Hanover"},
+      {"stage":"Round of 16","opponent":"Australia","score":"1‑0","date":"2006‑06‑26","location":"Hannover"},
+      {"stage":"Quarter‑final","opponent":"Ukraine","score":"3‑0","date":"2006‑07‑01","location":"Munich"},
+      {"stage":"Semi‑final","opponent":"Germany","score":"2‑0","date":"2006‑07‑04","location":"Cologne"},
+      {"stage":"Final","opponent":"France","score":"1‑1 (5‑3 pen)","date":"2006‑07‑09","location":"Berlin"}
+    ],
+    "bestPlayerStats": {
+      "goals": 0,
+      "assists": 0,
+      "matchesPlayed": 7,
+      "minutesPlayed": 630,
+      "shotsOnTarget": null,
+      "keyPasses": null,
+      "penaltiesScored": null
+    }
   },
   {
     "year": "2010",
     "champion": "Spain",
-    "bestPlayer": "Diego Forlán",
-    "location": "South Africa (Johannesburg)",
+    "bestPlayer": "Andrés Iniesta",
+    "location": "South Africa",
     "goals": 145,
-    "teams": 32
+    "teams": 32,
+    "matches": [
+      {"stage":"Group H","opponent":"Switzerland","score":"0‑1","date":"2010‑06‑16","location":"Johannesburg"},
+      {"stage":"Group H","opponent":"Honduras","score":"2‑0","date":"2010‑06‑21","location":"Durban"},
+      {"stage":"Group H","opponent":"Chile","score":"2‑1","date":"2010‑06‑25","location":"Cape Town"},
+      {"stage":"Round of 16","opponent":"Portugal","score":"1‑0","date":"2010‑06‑29","location":"Bloemfontein"},
+      {"stage":"Quarter‑final","opponent":"Paraguay","score":"1‑0","date":"2010‑07‑03","location":"Johannesburg"},
+      {"stage":"Semi‑final","opponent":"Germany","score":"1‑0","date":"2010‑07‑07","location":"Durban"},
+      {"stage":"Final","opponent":"Netherlands","score":"1‑0 (a.e.t.)","date":"2010‑07‑11","location":"Johannesburg"}
+    ],
+    "bestPlayerStats": {
+      "goals": 0,
+      "assists": 1,
+      "matchesPlayed": 7,
+      "minutesPlayed": 690,
+      "shotsOnTarget": null,
+      "keyPasses": null,
+      "penaltiesScored": null
+    }
   },
   {
     "year": "2014",
     "champion": "Germany",
     "bestPlayer": "Lionel Messi",
-    "location": "Brazil (Rio de Janeiro)",
+    "location": "Brazil",
     "goals": 171,
-    "teams": 32
+    "teams": 32,
+    "matches": [
+      {"stage":"Group G","opponent":"Portugal","score":"4‑0","date":"2014‑06‑16","location":"Salvador"},
+      {"stage":"Group G","opponent":"Ghana","score":"2‑2","date":"2014‑06‑21","location":"Brasília"},
+      {"stage":"Group G","opponent":"USA","score":"1‑0","date":"2014‑06‑26","location":"Fortaleza"},
+      {"stage":"Round of 16","opponent":"Algeria","score":"2‑1 (a.e.t.)","date":"2014‑06‑30","location":"Belo Horizonte"},
+      {"stage":"Quarter‑final","opponent":"France","score":"1‑0","date":"2014‑07‑04","location":"Rio de Janeiro"},
+      {"stage":"Semi‑final","opponent":"Brazil","score":"7‑1","date":"2014‑07‑08","location":"Belo Horizonte"},
+      {"stage":"Final","opponent":"Argentina","score":"1‑0 (a.e.t.)","date":"2014‑07‑13","location":"Rio"}
+    ],
+    "bestPlayerStats": {
+      "goals": 4,
+      "assists": 1,
+      "matchesPlayed": 7,
+      "minutesPlayed": 690,
+      "shotsOnTarget": null,
+      "keyPasses": null,
+      "penaltiesScored": null
+    }
   },
   {
     "year": "2018",
     "champion": "France",
     "bestPlayer": "Luka Modrić",
-    "location": "Russia (Moscow)",
+    "location": "Russia",
     "goals": 169,
-    "teams": 32
+    "teams": 32,
+    "matches": [
+      {"stage":"Group C","opponent":"Australia","score":"2‑1","date":"2018‑06‑16","location":"Kazan"},
+      {"stage":"Group C","opponent":"Peru","score":"1‑0","date":"2018‑06‑21","location":"Sochi"},
+      {"stage":"Group C","opponent":"Denmark","score":"0‑0","date":"2018‑06‑26","location":"Moscow"},
+      {"stage":"Round of 16","opponent":"Argentina","score":"4‑3","date":"2018‑06‑30","location":"Kazan"},
+      {"stage":"Quarter‑final","opponent":"Uruguay","score":"2‑0","date":"2018‑07‑06","location":"Nizhny Novgorod"},
+      {"stage":"Semi‑final","opponent":"Belgium","score":"1‑0","date":"2018‑07‑10","location":"Saint Petersburg"},
+      {"stage":"Final","opponent":"Croatia","score":"4‑2","date":"2018‑07‑15","location":"Moscow"}
+    ],
+    "bestPlayerStats": {
+      "goals": 2,
+      "assists": 1,
+      "matchesPlayed": 7,
+      "minutesPlayed": 630,
+      "shotsOnTarget": null,
+      "keyPasses": null,
+      "penaltiesScored": null
+    }
   },
   {
+    "id": "ARG",
     "year": "2022",
     "champion": "Argentina",
     "bestPlayer": "Lionel Messi",
     "location": "Qatar (Lusail)",
     "goals": 172,
-    "teams": 32
+    "teams": 32,
+    "matches": [
+      {
+        "stage": "Group Stage",
+        "opponent": "Saudi Arabia",
+        "score": "1-2",
+        "date": "2022-11-22",
+        "location": "Lusail"
+      },
+      {
+        "stage": "Group Stage",
+        "opponent": "Mexico",
+        "score": "2-0",
+        "date": "2022-11-26",
+        "location": "Lusail"
+      },
+      {
+        "stage": "Group Stage",
+        "opponent": "Poland",
+        "score": "2-0",
+        "date": "2022-11-30",
+        "location": "Stadium 974"
+      },
+      {
+        "stage": "Round of 16",
+        "opponent": "Australia",
+        "score": "2-1",
+        "date": "2022-12-03",
+        "location": "Ahmed bin Ali Stadium"
+      },
+      {
+        "stage": "Quarter-finals",
+        "opponent": "Netherlands",
+        "score": "2-2 (4-3 pen)",
+        "date": "2022-12-09",
+        "location": "Lusail"
+      },
+      {
+        "stage": "Semi-finals",
+        "opponent": "Croatia",
+        "score": "3-0",
+        "date": "2022-12-13",
+        "location": "Lusail"
+      },
+      {
+        "stage": "Final",
+        "opponent": "France",
+        "score": "3-3 (4-2 pen)",
+        "date": "2022-12-18",
+        "location": "Lusail"
+      }
+    ],
+    "bestPlayerStats": {
+      "goals": 7,
+      "assists": 3,
+      "matchesPlayed": 7,
+      "minutesPlayed": 690,
+      "shotsOnTarget": 13,
+      "keyPasses": 21,
+      "penaltiesScored": 4
+    }
   }
 ]
