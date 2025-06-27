@@ -1,0 +1,178 @@
+[
+  {
+    "year": "1930",
+    "champion": "Uruguay",
+    "bestPlayer": "José Nasazzi",
+    "location": "Uruguay (Montevideo)",
+    "goals": 70,
+    "teams": 13
+  },
+  {
+    "year": "1934",
+    "champion": "Italy",
+    "bestPlayer": "Giuseppe Meazza",
+    "location": "Italy (Rome)",
+    "goals": 70,
+    "teams": 16
+  },
+  {
+    "year": "1938",
+    "champion": "Italy",
+    "bestPlayer": "Leônidas da Silva",
+    "location": "France (Paris)",
+    "goals": 84,
+    "teams": 15
+  },
+  {
+    "year": "1950",
+    "champion": "Uruguay",
+    "bestPlayer": "Ademir Marques",
+    "location": "Brazil (Rio de Janeiro)",
+    "goals": 88,
+    "teams": 13
+  },
+  {
+    "year": "1954",
+    "champion": "Germany",
+    "bestPlayer": "Ferenc Puskás",
+    "location": "Switzerland (Bern)",
+    "goals": 140,
+    "teams": 16
+  },
+  {
+    "year": "1958",
+    "champion": "Brazil",
+    "bestPlayer": "Pelé",
+    "location": "Sweden (Stockholm)",
+    "goals": 126,
+    "teams": 16
+  },
+  {
+    "year": "1962",
+    "champion": "Brazil",
+    "bestPlayer": "Garrincha",
+    "location": "Chile (Santiago)",
+    "goals": 89,
+    "teams": 16
+  },
+  {
+    "year": "1966",
+    "champion": "England",
+    "bestPlayer": "Bobby Charlton",
+    "location": "England (London)",
+    "goals": 89,
+    "teams": 16
+  },
+  {
+    "year": "1970",
+    "champion": "Brazil",
+    "bestPlayer": "Pelé",
+    "location": "Mexico (Mexico City)",
+    "goals": 95,
+    "teams": 16
+  },
+  {
+    "year": "1974",
+    "champion": "Germany",
+    "bestPlayer": "Johan Cruyff",
+    "location": "Germany (Munich)",
+    "goals": 97,
+    "teams": 16
+  },
+  {
+    "year": "1978",
+    "champion": "Argentina",
+    "bestPlayer": "Mario Kempes",
+    "location": "Argentina (Buenos Aires)",
+    "goals": 102,
+    "teams": 16
+  },
+  {
+    "year": "1982",
+    "champion": "Italy",
+    "bestPlayer": "Paolo Rossi",
+    "location": "Spain (Madrid)",
+    "goals": 146,
+    "teams": 24
+  },
+  {
+    "year": "1986",
+    "champion": "Argentina",
+    "bestPlayer": "Diego Maradona",
+    "location": "Mexico (Mexico City)",
+    "goals": 132,
+    "teams": 24
+  },
+  {
+    "year": "1990",
+    "champion": "Germany",
+    "bestPlayer": "Salvatore Schillaci",
+    "location": "Italy (Rome)",
+    "goals": 115,
+    "teams": 24
+  },
+  {
+    "year": "1994",
+    "champion": "Brazil",
+    "bestPlayer": "Romário",
+    "location": "USA (Los Angeles)",
+    "goals": 141,
+    "teams": 24
+  },
+  {
+    "year": "1998",
+    "champion": "France",
+    "bestPlayer": "Zinedine Zidane",
+    "location": "France (Paris)",
+    "goals": 171,
+    "teams": 32
+  },
+  {
+    "year": "2002",
+    "champion": "Brazil",
+    "bestPlayer": "Ronaldo",
+    "location": "Korea/Japan (Yokohama)",
+    "goals": 161,
+    "teams": 32
+  },
+  {
+    "year": "2006",
+    "champion": "Italy",
+    "bestPlayer": "Zinedine Zidane",
+    "location": "Germany (Berlin)",
+    "goals": 147,
+    "teams": 32
+  },
+  {
+    "year": "2010",
+    "champion": "Spain",
+    "bestPlayer": "Diego Forlán",
+    "location": "South Africa (Johannesburg)",
+    "goals": 145,
+    "teams": 32
+  },
+  {
+    "year": "2014",
+    "champion": "Germany",
+    "bestPlayer": "Lionel Messi",
+    "location": "Brazil (Rio de Janeiro)",
+    "goals": 171,
+    "teams": 32
+  },
+  {
+    "year": "2018",
+    "champion": "France",
+    "bestPlayer": "Luka Modrić",
+    "location": "Russia (Moscow)",
+    "goals": 169,
+    "teams": 32
+  },
+  {
+    "year": "2022",
+    "champion": "Argentina",
+    "bestPlayer": "Lionel Messi",
+    "location": "Qatar (Lusail)",
+    "goals": 172,
+    "teams": 32
+  }
+]
