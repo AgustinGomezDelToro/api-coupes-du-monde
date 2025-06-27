@@ -6,7 +6,7 @@ Cette API fournit des données historiques sur les Coupes du Monde de football, 
 
 1. **Cloner le projet**
    ```sh
-   git clone <url-du-repo>
+   git clone https://github.com/AgustinGomezDelToro/api-coupes-du-monde
    cd flutter-tp-CDM
    ```
 2. **Installer les dépendances**
