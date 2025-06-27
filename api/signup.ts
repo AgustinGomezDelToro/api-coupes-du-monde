@@ -9,8 +9,16 @@ const dbName = 'OdontoActiva';
 const usersCollection = 'users';
 const JWT_SECRET = process.env.JWT_SECRET || 'changeme';
 
-// Handler principal
 export default async function handler(req: VercelRequest, res: VercelResponse) {
+  // 🔓 CORS HEADERS
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
+  if (req.method === 'OPTIONS') {
+    return res.status(200).end();
+  }
+
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'Method not allowed' });
     return;
@@ -27,15 +35,38 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     await client.connect();
     const db = client.db(dbName);
     const existing = await db.collection(usersCollection).findOne({ email });
+
     if (existing) {
       res.status(409).json({ error: 'User already exists' });
       return;
     }
+
     const hashed = await bcrypt.hash(password, 10);
-    const user = { name, email, password: hashed, role: 'USER', createdAt: new Date(), updatedAt: new Date() };
+    const user = {
+      name,
+      email,
+      password: hashed,
+      role: 'USER',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    };
+
     const result = await db.collection(usersCollection).insertOne(user);
-    const token = jwt.sign({ userId: result.insertedId, email, role: 'USER' }, JWT_SECRET, { expiresIn: '7d' });
-    res.status(201).json({ token, user: { name, email, role: 'USER' } });
+
+    const token = jwt.sign(
+      { userId: result.insertedId, email, role: 'USER' },
+      JWT_SECRET,
+      { expiresIn: '7d' }
+    );
+
+    res.status(201).json({
+      token,
+      user: {
+        name,
+        email,
+        role: 'USER'
+      }
+    });
   } catch (err) {
     res.status(500).json({ error: 'Internal server error' });
   } finally {

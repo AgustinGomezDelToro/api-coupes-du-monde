@@ -9,8 +9,28 @@ const dbName = 'OdontoActiva';
 const usersCollection = 'users';
 const JWT_SECRET = process.env.JWT_SECRET || 'changeme';
 
+// Middleware CORS
+function withCors(handler: (req: VercelRequest, res: VercelResponse) => void | Promise<void>) {
+  return async (req: VercelRequest, res: VercelResponse) => {
+    res.setHeader('Access-Control-Allow-Credentials', 'true');
+    res.setHeader('Access-Control-Allow-Origin', '*'); // Puedes reemplazar '*' por tu dominio específico
+    res.setHeader(
+      'Access-Control-Allow-Headers',
+      'X-CSRF-Token, X-Requested-With, Accept, Content-Type, Authorization'
+    );
+    res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
+
+    if (req.method === 'OPTIONS') {
+      res.status(200).end();
+      return;
+    }
+
+    return handler(req, res);
+  };
+}
+
 // Handler principal
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'Method not allowed' });
     return;
@@ -27,20 +47,37 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     await client.connect();
     const db = client.db(dbName);
     const user = await db.collection(usersCollection).findOne({ email });
+
     if (!user) {
       res.status(401).json({ error: 'Invalid credentials' });
       return;
     }
+
     const valid = await bcrypt.compare(password, user.password);
     if (!valid) {
       res.status(401).json({ error: 'Invalid credentials' });
       return;
     }
-    const token = jwt.sign({ userId: user._id, email: user.email, role: user.role }, JWT_SECRET, { expiresIn: '7d' });
-    res.status(200).json({ token, user: { name: user.name, email: user.email, role: user.role } });
+
+    const token = jwt.sign(
+      { userId: user._id, email: user.email, role: user.role },
+      JWT_SECRET,
+      { expiresIn: '7d' }
+    );
+
+    res.status(200).json({
+      token,
+      user: {
+        name: user.name,
+        email: user.email,
+        role: user.role,
+      },
+    });
   } catch (err) {
     res.status(500).json({ error: 'Internal server error' });
   } finally {
     await client.close();
   }
 }
+
+export default withCors(handler);
