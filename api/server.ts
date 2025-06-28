@@ -6,9 +6,16 @@ import championMatches from './routes/championMatches';
 import bestPlayerStats from './routes/bestPlayerStats';
 import champions from './routes/champions';
 import bestPlayers from './routes/bestPlayers';
+import path from 'path';
 
 const app = express();
-const PORT = 4000;
+
+import dotenv from 'dotenv';
+dotenv.config();
+
+const PORT = process.env.PORT || 4000;
+
+app.use(express.static(path.join(__dirname, '../../public')));
 
 process.on('uncaughtException', (err) => {
   console.error('Uncaught Exception:', err);

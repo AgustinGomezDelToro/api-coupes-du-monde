@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>API des Champions du Monde</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1 {
+      color: #0057a0;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      margin: 0.5rem 0;
+    }
+    a {
+      text-decoration: none;
+      color: #0077cc;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .desc {
+      font-size: 1rem;
+      margin-top: 1rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>🏆 Bienvenue sur l'API des Champions du Monde</h1>
+  <p class="desc">
+    Cette API fournit des données historiques sur la Coupe du Monde de football : années, champions, meilleurs joueurs et statistiques de matchs.
+  </p>
+  <h2>📚 Endpoints disponibles :</h2>
+  <ul>
+    <li><a href="/api/years">/api/years</a> — Liste des années de toutes les Coupes du Monde</li>
+    <li><a href="/api/championsByYear">/api/championsByYear</a> — Champion par édition</li>
+    <li><a href="/api/championMatches">/api/championMatches</a> — Matchs joués par les champions</li>
+    <li><a href="/api/bestPlayerStats">/api/bestPlayerStats</a> — Statistiques des meilleurs joueurs</li>
+    <li><a href="/api/champions">/api/champions</a> — Pays ayant remporté la Coupe</li>
+    <li><a href="/api/bestPlayers">/api/bestPlayers</a> — Joueurs marquants</li>
+  </ul>
+</body>
+</html>
