@@ -1,42 +1,27 @@
-import { VercelRequest, VercelResponse } from '@vercel/node';
+import { Router, Request, Response, NextFunction } from 'express';
 import { MongoClient } from 'mongodb';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
+dotenv.config();
 
-// Configuración
-const uri = process.env.DATABASE_URL!;
+const router = Router();
+
+
+
+const uri = process.env.DATABASE_URL;
+
+if (!uri || (!uri.startsWith('mongodb://') && !uri.startsWith('mongodb+srv://'))) {
+  throw new Error('DATABASE_URL must be set and start with mongodb:// or mongodb+srv://');
+}
+
 const dbName = 'OdontoActiva';
 const usersCollection = 'users';
 const JWT_SECRET = process.env.JWT_SECRET || 'changeme';
 
-// Middleware CORS
-function withCors(handler: (req: VercelRequest, res: VercelResponse) => void | Promise<void>) {
-  return async (req: VercelRequest, res: VercelResponse) => {
-    res.setHeader('Access-Control-Allow-Credentials', 'true');
-    res.setHeader('Access-Control-Allow-Origin', '*'); // Puedes reemplazar '*' por tu dominio específico
-    res.setHeader(
-      'Access-Control-Allow-Headers',
-      'X-CSRF-Token, X-Requested-With, Accept, Content-Type, Authorization'
-    );
-    res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
+router.post('/', async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  const { email, password } = req.body as { email?: string; password?: string };
 
-    if (req.method === 'OPTIONS') {
-      res.status(200).end();
-      return;
-    }
-
-    return handler(req, res);
-  };
-}
-
-// Handler principal
-async function handler(req: VercelRequest, res: VercelResponse) {
-  if (req.method !== 'POST') {
-    res.status(405).json({ error: 'Method not allowed' });
-    return;
-  }
-
-  const { email, password } = req.body;
   if (!email || !password) {
     res.status(400).json({ error: 'Email and password are required' });
     return;
@@ -74,10 +59,10 @@ async function handler(req: VercelRequest, res: VercelResponse) {
       },
     });
   } catch (err) {
-    res.status(500).json({ error: 'Internal server error' });
+    next(err); // Enviar al middleware de error global si existiera
   } finally {
     await client.close();
   }
-}
+});
 
-export default withCors(handler);
+export default router;

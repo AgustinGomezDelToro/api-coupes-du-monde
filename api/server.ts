@@ -7,6 +7,9 @@ import bestPlayerStats from './routes/bestPlayerStats';
 import champions from './routes/champions';
 import bestPlayers from './routes/bestPlayers';
 import path from 'path';
+import signupRoute from './signup';
+import loginRoute from './login';
+
 
 const app = express();
 
@@ -24,7 +27,12 @@ process.on('unhandledRejection', (reason, promise) => {
   console.error('Unhandled Rejection at:', promise, 'reason:', reason);
 });
 
-app.use(cors());
+app.use(cors({
+  origin: '*',
+  credentials: true
+}));
+
+
 app.use(express.json());
 
 // Mensaje de bienvenida y rutas disponibles
@@ -42,6 +50,8 @@ app.get('/', (req, res) => {
   });
 });
 
+app.use('/api/login', loginRoute);
+app.use('/api/signup', signupRoute);
 app.use('/api/years', years);
 app.use('/api/championsByYear', championsByYear);
 app.use('/api/championMatches', championMatches);
